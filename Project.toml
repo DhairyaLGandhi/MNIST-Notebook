@@ -1,4 +1,6 @@
 [deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
