@@ -14,7 +14,9 @@ function convert_to_nb(input_script = "", output_dest = "output")
   if input_script == ""
     return
   end
-  mkdir(output_dest)
+  if !isdir(output_dest)
+    mkdir(output_dest)
+  end
   Literate.notebook(input_script, output_dest, execute = true)
 end
 
